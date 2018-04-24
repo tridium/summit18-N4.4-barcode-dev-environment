@@ -1,0 +1,6 @@
+/* Environment Configuration File */
+// Change the values in here to point to items in your own environment
+
+gradle.ext.niagara_dev_home = "C:/Users/<YourUser>/<YourDevHomePath>/devHome" // <- Set to your developer home - it should be the folder where this file exists
+gradle.ext.niagara_home = "C:/<YourInstallPath>/Niagara-4.4.73.24" // <- Set your Niagara 4.4 installation version here
+gradle.ext.niagara_user_home = "C:/Users/<YourUser>/Niagara4.4/tridium" // <- Set to your user home

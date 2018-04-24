@@ -1,0 +1,2 @@
+Example Developer Environment for Niagara 4.4
+Download this project repository, then go into the environment.gradle file and change the 3 entries in there to match your setup. You should then be able to run Import in the main Intellij startup panel to select the build.gradle file as a project in Intellij. Select the "use Gradle wrapper" option when prompted. As-is, it will import the barcode project I used during the Developer Day demonstration. If this project is successfully loaded, you can delete the barcode module parts and bring in your own code.

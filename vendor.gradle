@@ -1,0 +1,9 @@
+/*
+ * Copyright 2018 anyone, All Rights Reserved.
+ */
+/* Vendor Configuration File */
+group = 'anyone'
+
+def moduleVersion = '1.0'
+def moduleVersionPatch = [:]
+version = "${moduleVersion}${moduleVersionPatch.get(project.name, '')}"
